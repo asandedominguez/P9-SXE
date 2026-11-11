@@ -48,19 +48,23 @@ Se verán todos los productos creados.
 
 ![8](/CAPTURAS%20SXE/Captura%20desde%202026-11-09%2012-24-38.png)
 
-Aparece con un impuesto del 21%, que corresponde al IVA de la fiscalidad española.
+Aparece con un impuesto automaticamente del 21%, que corresponde al IVA de la fiscalidad española.
 
 2. Producto tipo: Servicio
 
 ![9](/CAPTURAS%20SXE/Captura%20desde%202026-11-09%2012-25-28.png)
 
+Aparece sin impuesto, pero se le podría añadir un IVA del tipo servicio del 21%
+
 3. Producto tipo: Combinación
 
 ![10](/CAPTURAS%20SXE/Captura%20desde%202026-11-09%2012-26-23.png)
 
+No tiene IVA
+
 **¿PORQUE ALGUNOS APARECEN CON IVA Y OTROS NO?**
 
-Al crear la base de datos con los datos demo esto viene así por las categorías de cada producto. Los bienes pertenecen a categorías que ya tienen puesto el IVA del 21% de forma fija, por eso ya viene con el asignado. Los servicios y combos estáns sin impuestos asignado para poder ver ejemplos reales de productos donde el IVA se añade manualmente según el tipo de venta´que sea.
+Al crear la base de datos con los datos demo esto viene así por las categorías de cada producto. Los bienes pertenecen a categorías que ya tienen puesto el IVA del 21% de forma fija, por eso ya viene con el asignado. Los servicios y combinación están sin impuestos asignado para poder ver ejemplos reales de productos donde el IVA se añade manualmente según el tipo de venta que sea. El campo servicio tiene un campo para añadir el impuesto aunque no se añada de forma automática, mientras que los productos combinación no aparece ya que al ser varios productos en uno su IVA variará según los productos que lo compongan 
 
 ### 3º EJERCICIO. RECORRIDO. Haz este recorrido y guarda una captura de cada paso.
 
@@ -208,11 +212,11 @@ Para esto se accederá al modo desarrollador con la url que se ve en la imagen, 
 
 ![33](/CAPTURAS%20SXE/Captura%20desde%202026-11-09%2013-43-36.png)
 
-Ahora se accederá a la utilidad "ajustes" y se accederá "Herramientas de administrador" -> "Activar modo de desarrollador con activos"
+Otra forma de hacerlo será acceder a la utilidad "ajustes" y acceder a "Herramientas de administrador" -> "Activar modo de desarrollador con activos"
 
 ![34](/CAPTURAS%20SXE/Captura%20desde%202026-11-09%2013-44-26.png)
 
-Se mostrará la pantalla que se ve en la imagen, se accede a "Compañias" y se entra en la compañia que se ve
+Para hacer las comprobaciones que pide el enunciado desde aquí será tan facil como en la pantalla que se ve en la imagen acceder a "Compañias" y se entrar en la compañia que se ve
 
 ![35](/CAPTURAS%20SXE/Captura%20desde%202026-11-09%2013-44-51.png)
 
@@ -227,6 +231,10 @@ Si se mantiene el puntero del ratón en la interrogación de algún campo se mos
 ![37](/CAPTURAS%20SXE/Captura%20desde%202026-11-09%2013-46-57.png)
 
 En una factura el nombre técnico del campo modelo es: account.move
+
+| Nombre | Nombre técnico |
+| :--- | :--- |
+| 
 
 ### 6º EJERCICIO:  Incidencias: tabla con fecha, síntoma, causa y solución de cada problema encontrado.
 
