@@ -174,7 +174,7 @@ Se abre la que se ve en la imagen que viene con los datos de demostración y es 
 
 4 -> En la parte de impuestos se ve el impuesto de compra, mientras que en una de cliente se mostraría automaticamente el impuesto de venta
 
-5 -> La factura de proveedor permite registrar la fecha en la que se recibió el documento por parte de la empresa, mientras que en la de cliente el esto se genera de forma automática.
+5 -> La factura de proveedor permite registrar la fecha en la que se recibió el documento por parte de la empresa, mientras que en la de cliente esto se genera de forma automática.
 
 ![27](/CAPTURAS%20SXE/Captura%20desde%202026-11-09%2013-18-41.png)
 
