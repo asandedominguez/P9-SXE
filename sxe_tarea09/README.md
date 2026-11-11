@@ -249,11 +249,11 @@ En una factura el nombre técnico del campo modelo es: account.move
 
 TABLA DE DIFERENCIAS ENTRE DEPARTAMENTO Y COMPAÑIA
 
-1-> Este elemento pertenece obligatoriamente a una comapñia, la compañia no pertenece a nadie
+1-> Este elemento pertenece obligatoriamente a una compañia, la compañia no pertenece a nadie
 
-2-> El departamento se puede clasificar en en base a su función, mientras que la compañia los departamentos que tiene vinculados
+2-> El departamento se puede clasificar en base a su función, mientras que la compañía en base los departamentos que tiene vinculados
 
-3-> El departamento almacena una dirección física específica, mientras que la comañía una dirección fiscal
+3-> El departamento almacena una dirección física específica, mientras que la compañía una dirección fiscal
 
 ### 7º EJERCICIO: Declaración de uso de IA: herramienta, para qué la usaste y qué cambiaste de su salida, o "No se ha usado IA".
 
