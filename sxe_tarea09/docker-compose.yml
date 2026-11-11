@@ -23,6 +23,7 @@ services:
       HOST: db
       USER: ${POSTGRES_USER}
       PASSWORD: ${POSTGRES_PASSWORD}
+      PASSWORD_MAESTRA: ${PASSWORD_MAESTRA}
     ports:
       - "${ODOO_PORT}:8069"
     volumes:
