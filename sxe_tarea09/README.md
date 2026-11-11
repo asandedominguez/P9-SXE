@@ -234,7 +234,9 @@ En una factura el nombre técnico del campo modelo es: account.move
 
 | Nombre | Nombre técnico |
 | :--- | :--- |
-| 
+| nif | vat |
+| etiquetas | category_id |
+| modelo (factura) | zccount.move |
 
 ### 6º EJERCICIO:  Incidencias: tabla con fecha, síntoma, causa y solución de cada problema encontrado.
 
